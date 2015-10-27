@@ -1,2 +1,2 @@
 # ros_industrial_meetings
-Repository for tracking ROS-Industrial developers meeting minutes
+Repository for tracking ROS-Industrial public meeting minutes
