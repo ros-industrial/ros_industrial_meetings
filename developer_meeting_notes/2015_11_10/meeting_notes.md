@@ -5,12 +5,44 @@
 
 **Attendees:**
 
-??
+ - Craig Schlenoff
+ - Paul Hvass
+ - Clay Flannigan
+ - Fred Proctor
+ - Gijs vd. Hoorn
+ - Levi Armstrong
+ - Mirko Bordignon
+ - Frantisek Durovsky
+ - Isaac Saito
+ - Pablo Quilez
+ - Lars Tingelstad
 
 **Agenda:** [Slides](meeting_agenda.pptx)
 
 **Notes:**
 
+ -  Previous action items
+     -  Developer list
+         -  A seperate developer list will not be created.  Development discussion should take place of the ROS-I list (swri-ros-pkg-dev).  If the conversations become too numerous then a seperate list will be considred.
+ -  New development
+     -  Snappy Ubuntu Core
+         -  What's required to make a snappy app: http://www.piware.de/2015/01/snappy-package-for-robot-operating-system-tutorial/
+         -  Creat an "app" in the short term that demonstrates a single/simple capability of ROS-I on a specific plathform/configuration
+         -  Identify a small computer platform (android, nvidia jetson, intel NUC, B&R PC) to be the Snappy/ROS "box"
+         -  Possible apps
+             -  CAD to ROS
+             -  Monocular camera to robot calibration
+             -  Palletizing
+     -  OPC UA
+         -  Being pushed by big industry partners (Kuka)
+         -  New version of OPC (very different from old version)
+         -  Real time version could serve as a replacement to existing fieldbuses
+         -  IPA is going to have student work on replacing DDS in ROS 2.0 with OPC UA
+     -  ROS 2.0
+         -  Alpha 2 released - still just middleware
+         -  Waiting for OSRF to give us the go ahead to port ROS-I (early adopter)
+ -   Action Items
+     -   Follow up with Canonical, inform them of the ROS-I discussion
  - Repository Status
      - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
          - Maintainer: @shaun-edwards
@@ -62,8 +94,12 @@
          -  Open PRs([1](https://github.com/ros-industrial/ros_canopen/pulls))
          -  Release status
              -  indigo - released (stable)
+         -  Current development
+             -  [ros_control issues](https://github.com/ros-industrial/ros_canopen/pull/150)
+             -  [simlified intgration between ros_control, ur_driver and MoveIt](https://github.com/ros-planning/moveit_plugins/pull/12)
          -  Upcoming development
-             -  ??
+             -  [PR 71](https://github.com/ros-industrial/ros_canopen/issues/71)
+             -  ROS indigo release
      -  [industrial_moveit](https://github.com/ros-industrial/industrial_moveit): Contains packages that are meant for use with the MoveIt packages.
          -  Maintainer: @Levi-Armstrong
          -  Open Issues([1](https://github.com/ros-industrial/industrial_moveit/issues))
@@ -155,6 +191,8 @@
                  -  hydro (stable)
          -  Upcoming development
              -  Integration with MoveIt
-   
+
+
+
 
 
