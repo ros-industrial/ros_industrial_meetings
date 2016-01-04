@@ -33,9 +33,11 @@
          - Open PRs([1](https://github.com/ros-industrial/crcl/pulls))
          - Release status: N/A 
          - Upcoming development:
-             - Unify the several slightly different version of CRCL. 
-             - Add in some of Will Shackleford's and John Michaloski's tools for CRCL simulation, language bindings, and MTConnect bridging. 
-         - Last status update: 11/10/2015
+             - addition of Java-based CRCL programming tools
+             - simulator for a CRCL robot
+             - client for moving CRCL robots around
+             - MTConnect interface to CRCL
+         - Last status update: 12/8/2015
      - [fanuc](https://github.com/ros-industrial/fanuc): Support for fanuc robots
          - Maintainter: @gavanderhoorn
          - Open issues([41](https://github.com/ros-industrial/fanuc/issues))
@@ -177,7 +179,7 @@
              -  Source is stable (not tied to ROS release (yet))
          -  Upcoming development
              -  Integration with Descartes
-         - Last status update: 11/10/2015
+         - Last status update: 12/8/2015
      -  [descartes](https://github.com/ros-industrial-consortium/descartes): Semi-constrained cartesian path planner
          -  Maintainer: @Jmeyer1292
          -  Open Issues([28](https://github.com/ros-industrial-consortium/descartes/issues))
