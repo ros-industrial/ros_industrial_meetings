@@ -5,7 +5,18 @@
 
 **Attendees:**
 
- - 
+ - Clay Flannigan
+ - Risto Kojcev
+ - Lars Tingelstad
+ - Pablo Quilez
+ - Mirko Bordignon
+ - Fred Proctor
+ - Gijs vd. Hoorn
+ - Craig Schlenoff
+ - Isaac Saito
+ - Jonathan Meyer
+ - Jorge Nicho
+ - Levi Armstrong
 
 **Agenda:** [Slides](meeting_agenda.pptx)
 
