@@ -22,9 +22,43 @@
 
 **Notes:**
 
-
-
-
+ - Previous action items
+    - Follow up with Canonical, inform them of the ROS-I discussion
+       - carried over to next developer meeting
+ - New development
+    - Travis CI integration
+       - Initiated by Isaac Saito of TORK
+       - Travis enabled on entire ROS-I organisation
+       - greatly simplifies CI setup
+    - Staubli VAL3 driver
+       - initial development underway, expect first alpha / beta early next year
+    - Introduction of "Made for ROS-Industrial badges" (Mirko Bordignon)
+       - increase manufacturer involvement in community
+       - recognition of manufacturer involvement
+       - reflection of investment
+       - suitable metrics:
+          - technical cooperation (information, willingness to make changes)
+          - support (both technical as well as commercial?)
+ - Ongoing development:
+    - OPC UA:
+       - student project at IPA started
+       - ROS as OPC UA 'information profile'
+       - ROS would bring semantics, which OPC-UA lacks
+       - inform ROS-I community as soon as possible about possible approaches (transparent bridge, middleware replacement, device abstraction)
+    - ROS 2.0:
+       - Alpha 3 release soon (expected 2015-12-18)
+       - real-time compatibility is key in design, but ultimately will still come down to node author
+    - Snappy Ubuntu Core:
+       - could lean on infrastructure for deployment of ROS-I applications
+       - Mirko proposes to use this in conjunction with possible hardware platforms (ie: ROS-Industrial appliances)
+       - possible application ideas:
+          - CAD-to-ROS Milestone 1
+          - (camera) calibration
+          - scene / work cell reconstruction using RGBD devices (SLAM for robotic work cells). Possible hardware: new Intel Realsense cameras
+ - Action items
+    - Follow up with Canonical, inform them of the ROS-I discussion
+    - Concretise ideas for possible Snappy apps
+    - IPA will report on OPC UA integration possibilities
  - Repository Status
      - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
          - Maintainer: @shaun-edwards
@@ -42,7 +76,7 @@
          - Maintatiner: @frederickproctor
          - Open issues([0](https://github.com/ros-industrial/crcl/issues))
          - Open PRs([1](https://github.com/ros-industrial/crcl/pulls))
-         - Release status: N/A 
+         - Release status: N/A
          - Upcoming development:
              - addition of Java-based CRCL programming tools
              - simulator for a CRCL robot
@@ -57,11 +91,11 @@
              - indigo - released
              - jade - waiting on industrial_core
          - Current development
-             - Updated wiki's for new release
+             - ROS Indigo release and available in repositories (synced)
          - Upcoming development:
              - Multi-group control
              - Detailed meshes
-         - Last status update: 12/7/2015
+         - Last status update: 08/12/2015
      - [industrial_calibration](https://github.com/ros-industrial/industrial_calibration): Contains libraries/algorithms for calibration industrial systems
          - Maintainer: @drchrislewis
          - Open Issue([26](https://github.com/ros-industrial/industrial_calibration/issues))
@@ -80,7 +114,7 @@
              - indigo - source release??
          - Current development
              - Added UR 3/5/10 support
-         - Upcoming develpment
+         - Upcoming development
              - ??
          - Last status update: 12/7/2015
      -  [ros_canopen](https://github.com/ros-industrial/ros_canopen): Canopen implementation for ROS.
@@ -218,9 +252,9 @@
              -  Added as a git submodule to industrial core
          -  Release status
              -  Source
-                 -  ??
+                 -  master (unstable, but usable)
          -  Upcoming development
-             -  ??
+             -  see if submodules are best deployment solution
          - Last status update: 12/7/2015
 
 
