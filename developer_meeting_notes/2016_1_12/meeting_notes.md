@@ -1,0 +1,217 @@
+# ROS-Industrial Developer Meeting Notes
+
+----------
+**Date:** 1/12/2016
+
+**Attendees:**
+
+**Agenda:** [Slides](meeting_agenda.pptx)
+
+**Notes:**
+
+ 
+ - Action items
+
+    
+ - Repository Status
+     - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
+         - Maintainer: @shaun-edwards
+         - Open issues([25](https://github.com/ros-industrial/industrial_core/issues))
+         - Open PRs([1](https://github.com/ros-industrial/industrial_core/pulls))
+         - Release status:
+             - indigo - released
+             - jade - set to release (same as indigo)
+         - Current development:
+             - Bug fix #125
+         - Upcoming development:
+             - jade release (Jan, 2015)
+         - Last status update: 12/7/2015
+     - [crcl](https://github.com/ros-industrial/crcl): Canonical Robot Command Language - provides generic command and status definitions that implement the functionality of typical industrial robots
+         - Maintatiner: @frederickproctor
+         - Open issues([0](https://github.com/ros-industrial/crcl/issues))
+         - Open PRs([1](https://github.com/ros-industrial/crcl/pulls))
+         - Release status: N/A
+         - Upcoming development:
+             - addition of Java-based CRCL programming tools
+             - simulator for a CRCL robot
+             - client for moving CRCL robots around
+             - MTConnect interface to CRCL
+         - Last status update: 12/8/2015
+     - [fanuc](https://github.com/ros-industrial/fanuc): Support for fanuc robots
+         - Maintainter: @gavanderhoorn
+         - Open issues([41](https://github.com/ros-industrial/fanuc/issues))
+         - Open PRs([2](https://github.com/ros-industrial/fanuc/pulls))
+         - Release status:
+             - indigo - released
+             - jade - waiting on industrial_core
+         - Current development
+             - ROS Indigo release and available in repositories (synced)
+         - Upcoming development:
+             - Multi-group control
+             - Detailed meshes
+         - Last status update: 08/12/2015
+     - [industrial_calibration](https://github.com/ros-industrial/industrial_calibration): Contains libraries/algorithms for calibration industrial systems
+         - Maintainer: @drchrislewis
+         - Open Issue([26](https://github.com/ros-industrial/industrial_calibration/issues))
+         - Open PRs([0](https://github.com/ros-industrial/industrial_calibration/pulls))
+         - Release status:
+             - indigo - source (unstable)
+             - hydro - source (stable)
+         - Upcoming development
+             - New automated method for instrisic camera calibration (provides stable camera parameters)
+         - Last status update: 11/10/2015
+     - [robot\_movement\_interface](https://github.com/ros-industrial/robot_movement_interface): Drivers implementing the Robot Movement Interface, which allows access to robot specific capabilities in a standardized common format while maintaining compatibility with the ROS-Industrial Joint interface.
+         - Maintainer: @ipa325
+         - Open Issues([2](https://github.com/ros-industrial/robot_movement_interface/issues))
+         - Open PRs([0](https://github.com/ros-industrial/robot_movement_interface/pulls))
+         - Release status:
+             - indigo - source release??
+         - Current development
+             - Added UR 3/5/10 support
+         - Upcoming development
+             - ??
+         - Last status update: 12/7/2015
+     -  [ros_canopen](https://github.com/ros-industrial/ros_canopen): Canopen implementation for ROS.
+         -  Maintainer: @ipa-mdl
+         -  Open Issues([14](https://github.com/ros-industrial/ros_canopen/issues))
+         -  Open PRs([2](https://github.com/ros-industrial/ros_canopen/pulls))
+         -  Release status
+             -  indigo - released (stable)
+         -  Current development
+             -  [ros_control issues](https://github.com/ros-industrial/ros_canopen/pull/150)
+             -  [simlified intgration between ros_control, ur_driver and MoveIt](https://github.com/ros-planning/moveit_plugins/pull/12)
+         -  Upcoming development
+             -  [PR 71](https://github.com/ros-industrial/ros_canopen/issues/71)
+             -  ROS indigo release
+         - Last status update: 11/10/2015
+     -  [industrial_moveit](https://github.com/ros-industrial/industrial_moveit): Contains packages that are meant for use with the MoveIt packages.
+         -  Maintainer: @Levi-Armstrong
+         -  Open Issues([1](https://github.com/ros-industrial/industrial_moveit/issues))
+         -  Open PRs([1](https://github.com/ros-industrial/industrial_moveit/pulls))
+         -  Release status
+             -  indigo - source (unstable)
+         -  Current development
+             -  Bug fix #22
+         -  Upcoming development
+             -  STOMP Planner improvements: see [video](https://www.youtube.com/watch?v=AvFoskssvVQ)
+         - Last status update: 12/7/2015
+     -  [universal_robot](https://github.com/ros-industrial/universal_robot): Universal robots drivers
+         -  Maintainer: @ipa-fxm
+         -  Open Issues([27](https://github.com/ros-industrial/universal_robot/issues))
+         -  Open PRs([2](https://github.com/ros-industrial/universal_robot/pulls))
+         -  Release status
+             -  indigo - stable (except for new controllers)
+         -  Current development
+             -  UR3 support (URDF, Simulation, MoveIt!-Config)
+             -	Use constants rather than defines in ur_kinematics
+             -	Move SetIO Enums into service definition
+         -  Upcoming development
+             -  CB3 compatibility
+             -	Inclusion of ur\_modern\_driver by @ThomasTimm
+             -	New releases for Indigo/Jade
+         - Last status update: 12/7/2015
+     -  [abb](https://github.com/ros-industrial/abb): ABB robot drivers
+         -  Maintainer: @Levi-Armstrong
+         -  Open Issues([9](https://github.com/ros-industrial/abb/issues))
+         -  Open PRs([1](https://github.com/ros-industrial/abb/pulls))
+         -  Release status
+             -  indigo - released (stable)
+         -  Current development
+             -  Moving forward with EGM support, evaluating prototype driver
+         -  Upcoming development
+             -  Improved robot driver (EGM support)
+         - Last status update: 12/7/2015
+     -  [motoman](https://github.com/ros-industrial/motoman):  Motoman robot dirvers
+         -  Maintainer: @shaun-edwards
+         -  Open Issues([21](https://github.com/ros-industrial/motoman/issues))
+         -  Open PRs([5](https://github.com/ros-industrial/motoman/pulls))
+         -  Release status
+             -  indigo - source (unstable)
+         -  Upcoming development
+             -  Update documenation
+         - Last status update: 12/7/2015
+     -  [kuka(experimental)](https://github.com/ros-industrial/kuka_experimental): Kuka robot drivers
+         -  Maintainer: @tingelst, @gavanderhoorn
+         -  Open Issues([11](https://github.com/ros-industrial/kuka_experimental/issues))
+         -  Open PRs([6](https://github.com/ros-industrial/kuka_experimental/pulls))
+         -  Release status 
+             -  indigo - experimental
+         -  Upcoming development
+             -  integrating Lwr4+ (Centre E. Piaggio)
+             -  integrating IPA's work
+         - Last status update: 12/7/2015
+     -  [robotiq](https://github.com/ros-industrial/robotiq): Robotiq gripper and force/torque sensor drivers
+         -  Maintainer: ??
+         -  Open Issues([13](https://github.com/ros-industrial/robotiq/issues))
+         -  Open PRs([1](https://github.com/ros-industrial/robotiq/pulls))
+         -  Release status
+             -  indigo - source (stable)
+         -  Upcoming development
+             -  Create a binary release [#42](https://github.com/ros-industrial/robotiq/issues/42)
+         - Last status update: 12/7/2015
+     -  [siements(experimental)](https://github.com/ros-industrial/siemens_experimental): Support for siemens ProfiNET netowrks
+         -  Maintainer: @durovsky 
+         -  Open Issues([2](https://github.com/ros-industrial/siemens_experimental/issues))
+         -  Open PRs([0](https://github.com/ros-industrial/siemens_experimental/pulls))
+         -  Release status
+             -  hydro - source (unstable)
+         -  Current development
+            - Promotional event related to Siemens ROS support
+         -  Upcoming development
+             -  Debian release
+             -  Evaluation of Siemens "software only" Profinet support
+         - Last status update: 12/7/2015
+     -  [staubli](https://github.com/ros-industrial/staubli): Staubli robot drivers
+         -  Maintainer: @gavanderhoorn
+         -  Open Issues([1](https://github.com/ros-industrial/staubli/issues))
+         -  Open PRs([1](https://github.com/ros-industrial/staubli/pulls))
+         -  Release status
+             -  No releases
+         -  Upcoming development
+             -  Initial driver release
+         - Last status update: 12/7/2015
+     -  [bezier](https://github.com/ros-industrial-consortium/bezier): 5D tool path planner
+         -  Maintainer: @VictorLamoine
+         -  Open Issues([3](https://github.com/ros-industrial-consortium/bezier/issues))
+         -  Open PRs([0](https://github.comros-industrial-consortium/bezier/pulls))
+         -  Release status
+             -  Source is stable (not tied to ROS release (yet))
+         -  Upcoming development
+             -  Integration with Descartes
+         - Last status update: 12/8/2015
+     -  [descartes](https://github.com/ros-industrial-consortium/descartes): Semi-constrained cartesian path planner
+         -  Maintainer: @Jmeyer1292
+         -  Open Issues([28](https://github.com/ros-industrial-consortium/descartes/issues))
+         -  Open PRs([3](https://github.comros-industrial-consortium/descartes/pulls))
+         -  Current development
+             -  Test suite expansion
+         -  Release status
+             -  Source
+                 -  hydro-devel (stable)
+                 -  indigo-devel (unstable)
+             -  Binary
+                 -  hydro (stable)
+         -  Upcoming development
+             -  Integration with MoveIt
+             -  Bug fixes found in test suite
+             -  Utils ROS<->Descartes
+             -  Easier integration w/IKFast
+         - Last status update: 11/10/2015
+     -  [industrial_ci](https://github.com/ros-industrial/industrial_ci): Continuous integration repository for ROS-Industrial
+         -  Maintainer: @130s
+         -  Open Issues([0](https://github.com/ros-industrial-consortium/industrial_ci/issues))
+         -  Open PRs([1](https://github.comros-industrial-consortium/industrial_ci/pulls))
+         -  Current development
+             -  Added common travis scripts
+             -  Added as a git submodule to industrial core
+         -  Release status
+             -  Source
+                 -  master (unstable, but usable)
+         -  Upcoming development
+             -  see if submodules are best deployment solution
+         - Last status update: 12/7/2015
+
+
+
+
+
