@@ -1,44 +1,39 @@
 # ROS-Industrial Developer Meeting Notes
 
 ----------
-**Date:** 1/12/2016
+**Date:** 3/8/2016
 
 **Attendees:**
-
- - Fred Proctor
- - Jorge Nicho
- - Michael Haberler
- - Pablo Quilez
- - Gijs vd. Hoorn
- - Craig Schlenoff
- - Murilo Martins
- - Isaac Saito
- - Levi Armstrong
- - Bas de Bruijn
- - Charles Steinkuehler
- - Paul Hvass
- - Thomas Timm Andersen
- - Mirko Bordignon
- - Shaun Edwards
 
 **Agenda:** [Slides](meeting_agenda.pptx)
 
 **Notes:**
-
- - OPC UA - Detailed presentation to be given at RIC-EU.  Mirko will share "public" potions at a future developer meeting.
- - "Modern" UR driver to be transferred to UR experimental
- - CRCL
-  - integration with MTConnect systems
-  - NIST demonstration with Fanuc + Descartes
- - Machinekit
-     - Has functioning ROS integration
-     - Presenting results at RIC-EU
-     - Needs community assistance with ROS Control integration.
- - Action items
-  - UR modern driver
-  - OPC UA
-  - Snappy Apps 
-  - NIST - Descartes + MTConnect + CRCL blog post   
+ - Motoman Indigo Release
+   - One more PR before release
+   - Mirko/Gijs will help with testing
+ - UR Modern Driver
+   - Shaun will contact Thomas Timm to see if he will initiate a PR for the modern driver
+ - Ubuntu Snappy
+   - CAD to ROS - It's currently a wishlist item 
+   - ROS-I Platfrom
+     - Mirko will get with his contact in the next month
+     - Shaun will get in touch within Intel for a NUC + RealSense combination
+ - Experimental Repo
+   - Shaun will follow up with a process next month
+ - CRCL Status
+   - Multiple new interfaces/APIs in javascript and C#
+   - Working on interfaces with the Fanuc robot (IO, streaming waypoints)
+ - Flex GUI
+   - Toolkit/library for building web-based GUI
+   - Open/Closed source model
+     - Basic functionality is free, upgradeable to paid professional version
+   - Is open to collaboration and contributions outside of PPM
+   - Is willing to provide the full version to research/education institutions
+ - Curie 
+   - Targeted at Hilgendorf robot 
+   - Combining Descartes (cartesian) + MoveIt (free space) 
+   - Hybrid planning approach - graph based utilizing PRMs and Descartes
+   - Experience based planner leverages to solve the high DOF
  - Repository Status
      - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
          - Maintainer: @shaun-edwards
