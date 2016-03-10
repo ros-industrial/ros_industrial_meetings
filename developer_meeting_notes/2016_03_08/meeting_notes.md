@@ -5,7 +5,7 @@
 
 **Attendees:**
 
-**Agenda:** [Slides](meeting_agenda.pptx)
+**Agenda:** [Slides](meeting_agenda.pptx) [Flex GUI Slides](developer_meeting_flex_gui.pdf)
 
 **Notes:**
  - Motoman Indigo Release
