@@ -8,7 +8,31 @@
 **Agenda:** [Slides](meeting_agenda.pptx) and [Flex GUI Slides](developer_meeting_flex_gui.pdf)
 
 **Notes:**
- TODO
+ 
+ - Previous action items:
+     - Motoman Release delayed to next month
+     - Experimental repo procedure being tested on Robotiq repo
+     - UR Modern Driver
+         - Thomas will transfer the modern driver for the jade release
+         - Shaun will connect Thomas and Felix to get commit rights
+ - TRACLabs (Patrick Beeson and Stephen Hart)
+     - Presented on TracIK
+     - TracIK to be released as a binary soon
+     - RIT release still a few months out.
+ - Extrinsic Cal (Victor Lamoine)
+     - Spent a week at SwRI to calibrate 3D sensor (David SLS-2) to robot tool point
+     - Evaluation of ROS-Industrial Calibration package 
+ - Switching to Discourse
+     - Some concern about the benefits of transfering
+     - Shaun will put together a list of beneifts to switching
+ - PackML
+     - Shaun is requesting anybody with interens or expertise in PackML to contact him
+ - Upcoming events
+     - Open source legal aspects, more [info](http://rosindustrial.org/events/2016/4/19/open-source-software-in-robotics-and-automation-best-practices-and-legal-aspects)
+     - Community meeting date TBD
+     - ROS-I ASIA workshop 7/15
+ 
+ 
  - Repository Status
      - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
          - Maintainer: @shaun-edwards
