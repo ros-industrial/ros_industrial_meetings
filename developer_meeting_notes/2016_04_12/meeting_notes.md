@@ -5,7 +5,7 @@
 
 **Attendees:**
 
-**Agenda:** [Slides](meeting_agenda.pptx) | [Extrinsic Calibratiion](Extrinsic calibration.pdf) | [TRACLABS]()
+**Agenda:** [Slides](meeting_agenda.pptx) | [Extrinsic Calibratiion](Extrinsic calibration.pdf) | [TRACLABS](traclabs.pptx)
 
 **Notes:**
  
