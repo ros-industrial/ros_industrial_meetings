@@ -5,7 +5,7 @@
 
 **Attendees:**
 
-**Agenda:** [Slides](meeting_agenda.pptx) and [Flex GUI Slides](developer_meeting_flex_gui.pdf)
+**Agenda:** [Slides](meeting_agenda.pptx) | [Extrinsic Calibratiion](Extrinsic calibration.pdf) | [TRACLABS]()
 
 **Notes:**
  
