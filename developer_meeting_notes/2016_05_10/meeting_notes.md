@@ -12,7 +12,7 @@
  - Previous action items:
      - Motoman Release (Completed)
      - UR Modern Driver
-     - List of beneifits to switching to Discourse (Shaun)
+     - List of benefits to switching to Discourse (Shaun)
      
  - Upcoming events
      - Open source legal aspects, more [info](http://rosindustrial.org/events/2016/4/19/open-source-software-in-robotics-and-automation-best-practices-and-legal-aspects)
@@ -34,18 +34,18 @@
              - None
          - Last status update: 12/7/2015
      - [crcl](https://github.com/ros-industrial/crcl): Canonical Robot Command Language - provides generic command and status definitions that implement the functionality of typical industrial robots
-         - Maintatiner: @frederickproctor
+         - Maintainer: @frederickproctor
          - Open issues([0](https://github.com/ros-industrial/crcl/issues))
          - Open PRs([0](https://github.com/ros-industrial/crcl/pulls))
          - Release status: N/A
          - Current development:
              - Changes made to Java language tools directory.
-             - Updates were for  the Java-based software pendant that drives CRCL robots aroudn.
+             - Updates were for  the Java-based software pendant that drives CRCL robots around.
          - Upcoming development:
              - ?
          - Last status update: 4/12/2016
      - [fanuc](https://github.com/ros-industrial/fanuc): Support for fanuc robots
-         - Maintainter: @gavanderhoorn
+         - Maintainer: @gavanderhoorn
          - Open issues([41](https://github.com/ros-industrial/fanuc/issues))
          - Open PRs([1](https://github.com/ros-industrial/fanuc/pulls))
          - Release status:
@@ -65,7 +65,7 @@
              - indigo - source (unstable)
              - hydro - source (stable)
          - Upcoming development
-             - New automated method for instrisic camera calibration (provides stable camera parameters)
+             - New automated method for intrinsic camera calibration (provides stable camera parameters)
          - Last status update: 11/10/2015
      - [robot\_movement\_interface](https://github.com/ros-industrial/robot_movement_interface): Drivers implementing the Robot Movement Interface, which allows access to robot specific capabilities in a standardized common format while maintaining compatibility with the ROS-Industrial Joint interface.
          - Maintainer: @ipa325
@@ -86,7 +86,7 @@
              -  indigo - released (stable)
          -  Current development
              -  [ros_control issues](https://github.com/ros-industrial/ros_canopen/pull/150)
-             -  [simlified intgration between ros_control, ur_driver and MoveIt](https://github.com/ros-planning/moveit_plugins/pull/12)
+             -  [simplified integration between ros_control, ur_driver and MoveIt](https://github.com/ros-planning/moveit_plugins/pull/12)
          -  Upcoming development
              -  [PR 71](https://github.com/ros-industrial/ros_canopen/issues/71)
              -  ROS indigo release
@@ -128,7 +128,7 @@
          -  Upcoming development
              -  Improved robot driver (EGM support)
          - Last status update: 4/12/2016
-     -  [motoman](https://github.com/ros-industrial/motoman):  Motoman robot dirvers
+     -  [motoman](https://github.com/ros-industrial/motoman):  Motoman robot drivers
          -  Maintainer: @shaun-edwards
          -  Open Issues([26](https://github.com/ros-industrial/motoman/issues))
          -  Open PRs([8](https://github.com/ros-industrial/motoman/pulls))
@@ -138,8 +138,8 @@
              - None 
          -  Upcoming development
              -  Transition all packages to Indigo driver
-             -  Create backwards compatiable clients (Hydro style parameters)
-             -  Update documenation
+             -  Create backwards compatible clients (Hydro style parameters)
+             -  Update documentation
          - Last status update: 1/11/2016
      -  [kuka(experimental)](https://github.com/ros-industrial/kuka_experimental): Kuka robot drivers
          -  Maintainer: @tingelst, @gavanderhoorn
@@ -162,7 +162,7 @@
          -  Upcoming development
              -  Create a binary release [#42](https://github.com/ros-industrial/robotiq/issues/42)
          - Last status update: 12/7/2015
-     -  [siements(experimental)](https://github.com/ros-industrial/siemens_experimental): Support for siemens ProfiNET netowrks
+     -  [siements(experimental)](https://github.com/ros-industrial/siemens_experimental): Support for Siemens ProfiNET networks
          -  Maintainer: @durovsky 
          -  Open Issues([4](https://github.com/ros-industrial/siemens_experimental/issues))
          -  Open PRs([0](https://github.com/ros-industrial/siemens_experimental/pulls))
@@ -210,7 +210,7 @@
          -  Upcoming development
              -  Integration with Descartes
          - Last status update: 4/12/2016
-     -  [descartes](https://github.com/ros-industrial-consortium/descartes): Semi-constrained cartesian path planner
+     -  [descartes](https://github.com/ros-industrial-consortium/descartes): Semi-constrained Cartesian path planner
          -  Maintainer: @Jmeyer1292
          -  Open Issues([36](https://github.com/ros-industrial-consortium/descartes/issues))
          -  Open PRs([6](https://github.comros-industrial-consortium/descartes/pulls))
