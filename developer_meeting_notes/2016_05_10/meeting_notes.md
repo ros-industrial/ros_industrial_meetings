@@ -9,15 +9,43 @@
 
 **Notes:**
  
+ - New introductions
+     - Risto
+     - Kentaro
+     - Ahbijit
+     - Steve
+ - Repo Updates
+     - Industrial core
+         - Jade has been released, others should start releasing jade versions of their packages
+     - Industrial CI
+         - It's great...use it
+         - People outside of ROS-I are starting to use it
+     - QT Creator IDE 
+         - waiting on QT4
+         - Levi needs help creating a debian
+         - Positive feedback from the training class
  - Previous action items:
-     - Motoman Release (Completed)
-     - UR Modern Driver
-     - List of benefits to switching to Discourse (Shaun)
-     
+     - Motoman
+         - PR submitted waiting on review to release for Indigo
+     - UR modern driver
+         - Thomas now has access
+         - Options for migrating to ROS-I
+             - Transfer repo - maintains links and forks
+             - Copy (w/history) package to existing repo
+     - Discourse
+         - Tabled to next month
+ - GSOC
+     - Risto presented on impedence control
+ - Recruitment
+     - Create a list of projects
+     - Create a list of positions
+
+ - Previous events
+     - Faunhofer IPA - Open source for manufacutring and legal issue
  - Upcoming events
-     - Open source legal aspects, more [info](http://rosindustrial.org/events/2016/4/19/open-source-software-in-robotics-and-automation-best-practices-and-legal-aspects)
-     - Community meeting date TBD
-     - ROS-I ASIA workshop 7/15
+     - ROS-I community meeting 6/14/16 - 9am (central)
+     - ROS-I Europe moved to October (tentative)
+
  
  
  - Repository Status
