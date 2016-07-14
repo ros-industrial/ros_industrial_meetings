@@ -62,10 +62,11 @@
          - Release status: N/A
          - Current development:
              - Changes made to Java language tools directory.
-             - Updates were for  the Java-based software pendant that drives CRCL robots around.
+             - Edits to the XML schemas resulting from testing on Fanuc LR Mate.
+             - Updates were for the Java-based software pendant that drives CRCL robots around.
          - Upcoming development:
              - ?
-         - Last status update: 4/12/2016
+         - Last status update: 7/12/2016
      - [fanuc](https://github.com/ros-industrial/fanuc): Support for fanuc robots
          - Maintainer: @gavanderhoorn
          - Open issues([38](https://github.com/ros-industrial/fanuc/issues))
@@ -74,11 +75,15 @@
              - indigo - released
              - jade - pending
          - Current development
-             - None
+             - Released version 0.4.1, which was mostly small enhancements
+                 - moveit configs: make RRTConnect the default planner
+                 - add M-10iA/7L variant
+                 - use 'xacro' script instead of deprecated 'xacro.py' in 'load_V.launch' files
+                 - add roslaunch testing to all moveit configs
          - Upcoming development:
              - Multi-group control
              - Detailed meshes
-         - Last status update: 4/15/2016
+         - Last status update: 7/12/2016
      - [industrial_calibration](https://github.com/ros-industrial/industrial_calibration): Contains libraries/algorithms for calibration industrial systems
          - Maintainer: @drchrislewis
          - Open Issue([11](https://github.com/ros-industrial/industrial_calibration/issues))
@@ -169,11 +174,13 @@
          -  Release status 
              -  indigo - experimental
          -  Current development
-             -  Did a big cleanup of many outstanding PRS: merged #20, #22, #23, #24 and #25
+             - rsi_hw_iface: fixed issue with too long filenames of RSI cfgs
+             - rsi_hw_iface: sorted out inconsistent timer usage in control loop
+             - improve documentation
          -  Upcoming development
              -  integrating Lwr4+ (Centre E. Piaggio)
              -  integrating IPA's work
-         - Last status update: 4/12/2016
+         - Last status update: 7/12/2016
      -  [robotiq](https://github.com/ros-industrial/robotiq): Robotiq gripper and force/torque sensor drivers
          -  Maintainer: ??
          -  Open Issues([21](https://github.com/ros-industrial/robotiq/issues))
@@ -201,9 +208,11 @@
          -  Open PRs([0](https://github.com/ros-industrial/staubli/pulls))
          -  Release status
              -  No releases
+         -  Current development
+            - add VAL3 based ros-i compatible driver
          -  Upcoming development
              -  See staubli_experimental
-         - Last status update: 4/12/2016
+         - Last status update: 7/12/2016
      -  [staubli_experimental](https://github.com/ros-industrial/staubli_experimental): Staubli robot drivers
          -  Maintainer: @gavanderhoorn
          -  Open Issues([6](https://github.com/ros-industrial/staubli_experimental/issues))
