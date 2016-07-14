@@ -45,8 +45,8 @@
  - Repository Status
      - [industrial_core](https://github.com/ros-industrial/industrial_core): Core industrial library for robot drivers and comms.
          - Maintainer: @shaun-edwards
-         - Open issues([33](https://github.com/ros-industrial/industrial_core/issues))
-         - Open PRs([2](https://github.com/ros-industrial/industrial_core/pulls))
+         - Open issues([31](https://github.com/ros-industrial/industrial_core/issues))
+         - Open PRs([1](https://github.com/ros-industrial/industrial_core/pulls))
          - Release status:
              - indigo - released
              - jade - released
@@ -68,7 +68,7 @@
          - Last status update: 4/12/2016
      - [fanuc](https://github.com/ros-industrial/fanuc): Support for fanuc robots
          - Maintainer: @gavanderhoorn
-         - Open issues([41](https://github.com/ros-industrial/fanuc/issues))
+         - Open issues([38](https://github.com/ros-industrial/fanuc/issues))
          - Open PRs([1](https://github.com/ros-industrial/fanuc/pulls))
          - Release status:
              - indigo - released
@@ -81,8 +81,8 @@
          - Last status update: 4/15/2016
      - [industrial_calibration](https://github.com/ros-industrial/industrial_calibration): Contains libraries/algorithms for calibration industrial systems
          - Maintainer: @drchrislewis
-         - Open Issue([28](https://github.com/ros-industrial/industrial_calibration/issues))
-         - Open PRs([0](https://github.com/ros-industrial/industrial_calibration/pulls))
+         - Open Issue([11](https://github.com/ros-industrial/industrial_calibration/issues))
+         - Open PRs([1](https://github.com/ros-industrial/industrial_calibration/pulls))
          - Release status:
              - indigo - source (unstable)
              - hydro - source (stable)
@@ -102,15 +102,13 @@
          - Last status update: 4/12/2016
      -  [ros_canopen](https://github.com/ros-industrial/ros_canopen): Canopen implementation for ROS.
          -  Maintainer: @ipa-mdl
-         -  Open Issues([16](https://github.com/ros-industrial/ros_canopen/issues))
-         -  Open PRs([1](https://github.com/ros-industrial/ros_canopen/pulls))
+         -  Open Issues([19](https://github.com/ros-industrial/ros_canopen/issues))
+         -  Open PRs([3](https://github.com/ros-industrial/ros_canopen/pulls))
          -  Release status
              -  indigo - released (stable)
          -  Current development
-             -  [ros_control issues](https://github.com/ros-industrial/ros_canopen/pull/150)
-             -  [simplified integration between ros_control, ur_driver and MoveIt](https://github.com/ros-planning/moveit_plugins/pull/12)
+             -  ?
          -  Upcoming development
-             -  [PR 71](https://github.com/ros-industrial/ros_canopen/issues/71)
              -  ROS indigo release
          - Last status update: 11/10/2015
      -  [industrial_moveit](https://github.com/ros-industrial/industrial_moveit): Contains packages that are meant for use with the MoveIt packages.
@@ -120,14 +118,14 @@
          -  Release status
              -  indigo - source (unstable)
          -  Current development
-             -  Fix issue #27 and #25
+             -  Restructured STOMP with various improvements: (pull)[https://github.com/ros-industrial/industrial_moveit/pull/28] 
          -  Upcoming development
-             -  STOMP Planner improvements: see [video](https://www.youtube.com/watch?v=AvFoskssvVQ)
-         - Last status update: 4/12/2016
+             -  Simplify STOMP and Constrained IK configuration parameters.
+         - Last status update: 7/12/2016
      -  [universal_robot](https://github.com/ros-industrial/universal_robot): Universal robots drivers
          -  Maintainer: @ipa-fxm
-         -  Open Issues([30](https://github.com/ros-industrial/universal_robot/issues))
-         -  Open PRs([4](https://github.com/ros-industrial/universal_robot/pulls))
+         -  Open Issues([36](https://github.com/ros-industrial/universal_robot/issues))
+         -  Open PRs([9](https://github.com/ros-industrial/universal_robot/pulls))
          -  Release status
              -  indigo - stable (except for new controllers)
          -  Current development
@@ -141,21 +139,22 @@
          - Last status update: 12/7/2015
      -  [abb](https://github.com/ros-industrial/abb): ABB robot drivers
          -  Maintainer: @Levi-Armstrong
-         -  Open Issues([11](https://github.com/ros-industrial/abb/issues))
-         -  Open PRs([1](https://github.com/ros-industrial/abb/pulls))
+         -  Open Issues([12](https://github.com/ros-industrial/abb/issues))
+         -  Open PRs([2](https://github.com/ros-industrial/abb/pulls))
          -  Release status
              -  indigo - released (stable)
          -  Current development
              -  Moving forward with EGM support, evaluating prototype driver
          -  Upcoming development
              -  Improved robot driver (EGM support)
-         - Last status update: 4/12/2016
+         - Last status update: 7/12/2016
      -  [motoman](https://github.com/ros-industrial/motoman):  Motoman robot drivers
          -  Maintainer: @shaun-edwards
-         -  Open Issues([26](https://github.com/ros-industrial/motoman/issues))
-         -  Open PRs([8](https://github.com/ros-industrial/motoman/pulls))
+         -  Open Issues([24](https://github.com/ros-industrial/motoman/issues))
+         -  Open PRs([7](https://github.com/ros-industrial/motoman/pulls))
          -  Release status
-             -  indigo - source (unstable)
+             -  indigo - released (unstable)
+             -  jade - released (unstable)
          -  Current development
              - None 
          -  Upcoming development
@@ -165,8 +164,8 @@
          - Last status update: 1/11/2016
      -  [kuka(experimental)](https://github.com/ros-industrial/kuka_experimental): Kuka robot drivers
          -  Maintainer: @tingelst, @gavanderhoorn
-         -  Open Issues([9](https://github.com/ros-industrial/kuka_experimental/issues))
-         -  Open PRs([3](https://github.com/ros-industrial/kuka_experimental/pulls))
+         -  Open Issues([15](https://github.com/ros-industrial/kuka_experimental/issues))
+         -  Open PRs([6](https://github.com/ros-industrial/kuka_experimental/pulls))
          -  Release status 
              -  indigo - experimental
          -  Current development
@@ -177,8 +176,8 @@
          - Last status update: 4/12/2016
      -  [robotiq](https://github.com/ros-industrial/robotiq): Robotiq gripper and force/torque sensor drivers
          -  Maintainer: ??
-         -  Open Issues([17](https://github.com/ros-industrial/robotiq/issues))
-         -  Open PRs([1](https://github.com/ros-industrial/robotiq/pulls))
+         -  Open Issues([21](https://github.com/ros-industrial/robotiq/issues))
+         -  Open PRs([5](https://github.com/ros-industrial/robotiq/pulls))
          -  Release status
              -  indigo - source (stable)
          -  Upcoming development
@@ -207,7 +206,7 @@
          - Last status update: 4/12/2016
      -  [staubli_experimental](https://github.com/ros-industrial/staubli_experimental): Staubli robot drivers
          -  Maintainer: @gavanderhoorn
-         -  Open Issues([3](https://github.com/ros-industrial/staubli_experimental/issues))
+         -  Open Issues([6](https://github.com/ros-industrial/staubli_experimental/issues))
          -  Open PRs([0](https://github.com/ros-industrial/staubli_experimental/pulls))
          -  Release status
              -  No release
@@ -220,8 +219,8 @@
          - Last status update: 4/12/2016
      -  [bezier](https://github.com/ros-industrial-consortium/bezier): 5D tool path planner
          -  Maintainer: @VictorLamoine
-         -  Open Issues([9](https://github.com/ros-industrial-consortium/bezier/issues))
-         -  Open PRs([0](https://github.comros-industrial-consortium/bezier/pulls))
+         -  Open Issues([24](https://github.com/ros-industrial-consortium/bezier/issues))
+         -  Open PRs([2](https://github.comros-industrial-consortium/bezier/pulls))
          -  Release status
              -  Source is stable (not tied to ROS release (yet))
          -  Current development
@@ -235,7 +234,7 @@
      -  [descartes](https://github.com/ros-industrial-consortium/descartes): Semi-constrained Cartesian path planner
          -  Maintainer: @Jmeyer1292
          -  Open Issues([36](https://github.com/ros-industrial-consortium/descartes/issues))
-         -  Open PRs([6](https://github.comros-industrial-consortium/descartes/pulls))
+         -  Open PRs([10](https://github.comros-industrial-consortium/descartes/pulls))
          -  Release status
              -  Source
                  -  hydro-devel (stable)
@@ -265,8 +264,8 @@
          - Last status update: 1/11/2016
      -  [industrial_ci](https://github.com/ros-industrial/industrial_ci): Continuous integration repository for ROS-Industrial
          -  Maintainer: @130s
-         -  Open Issues([7](https://github.com/ros-industrial-consortium/industrial_ci/issues))
-         -  Open PRs([2](https://github.comros-industrial-consortium/industrial_ci/pulls))
+         -  Open Issues([17](https://github.com/ros-industrial-consortium/industrial_ci/issues))
+         -  Open PRs([5](https://github.comros-industrial-consortium/industrial_ci/pulls))
          -  Current development
              -  Added common travis scripts
              -  Added as a git submodule to industrial core
