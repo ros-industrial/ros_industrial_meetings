@@ -1,7 +1,7 @@
 # ROS-Industrial Developer Meeting Notes
 
 ----------
-**Date:** 5/10/2016
+**Date:** 7/12/2016
 
 **Attendees:**
 
@@ -10,10 +10,7 @@
 **Notes:**
  
  - New introductions
-     - Risto
-     - Kentaro
-     - Ahbijit
-     - Steve
+     - N/A
  - Repo Updates
      - Industrial core
          - Jade has been released, others should start releasing jade versions of their packages
@@ -21,29 +18,26 @@
          - It's great...use it
          - People outside of ROS-I are starting to use it
      - QT Creator IDE 
-         - waiting on QT4
-         - Levi needs help creating a debian
-         - Positive feedback from the training class
+         - Has been released via install script found in the github repository.
+         - The Debian release is still in the works, but plan to have it released by next meeting.
  - Previous action items:
      - Motoman
-         - PR submitted waiting on review to release for Indigo
+         - Jade release on 7/4/2016
      - UR modern driver
-         - Thomas now has access
-         - Options for migrating to ROS-I
-             - Transfer repo - maintains links and forks
-             - Copy (w/history) package to existing repo
+         - Need to follow up next month
      - Discourse
          - Tabled to next month
- - GSOC
-     - Risto presented on impedence control
+ - GSoC Presenters
+     - Abhijit Makhal presented on "The Reuleaux Library for Workspace Analysis"
+     - Kentaro Wada presented on "Adaptive and Reactive Planning"
+ - Industry Presenters
+     - Dr. Murilo Martins presented on "Staubli Drivers"
  - Recruitment
      - Create a list of projects
      - Create a list of positions
-
  - Previous events
-     - Faunhofer IPA - Open source for manufacutring and legal issue
- - Upcoming events
      - ROS-I community meeting 6/14/16 - 9am (central)
+ - Upcoming events
      - ROS-I Europe moved to October (tentative)
 
  
