@@ -1,7 +1,7 @@
 # ROS-Industrial Developer Meeting Notes
 
 ----------
-**Date:** 11/14/2017
+**Date:** 12/14/2017
 
 **Notes:**
 - Levi Armstrong
@@ -12,42 +12,19 @@
   - PCL Advancing Front Mesher
     - Working on getting it merged into PCL
 
-- Shaun Edwards
-  - Issac has been contributing to Industrial CI (? is this Travis CI). 
-  - Working on Simple MoveIt
-  - Decided to stop maintaining Robotiqe because no access to hardware.
-
-- Harsh
-  - Graphical interface for SMASH on Github (Airbus Group)
-  - Looking for testers of this interface.
-
-- Matt Robinson
-  - Looking for support for the UR repository
-  - Working on ways to better support ROS Industrial
-  - March 6, 2018 ROS Industrial Day
-  - Working on the migration of google groups to discourse
-
-- Jorge Nicho 
-  - MoveIt Day Feedback, Dave Coleman is working on collecting feedback for a future blog post.
-    - Challenge to coordinate multiple groups in various time zones.
-    - Better communication tools
-
-- Min Ling Chan
-  - Looking for three developers for supporting UR effort
-    - One person from ROS-I Americas
-    - One persion from ROS-I Europe
-    - One person from ROS-I Asia
-  - Working on using MoveIt control UR using ROS 2 with bridge
-  - In the near future will work on using Industrial CI with GitLab
-
-- Craig
-  - Work on the planning the second Airal compentition with OSRF
-
 - Jeremy Adams
-  - Looking for ROS-I Training
-  - Looking for more advanced topics outside the basic curriculum.
+  - Almost finished with identifying topics for ROS-I Training.
+  - Training is expected to be needed before the end of the first quarter 2018.
+  
+- Alex Goins
+  - Update for the linear rail drivers to improve performance.
+  - Creating documentation for the industrial_calibration repository.
+    - A complete end-to-end documentation on how to use the library for different calibration scenarios.
+    
+- Jason Michel Lambert
+  - Canada Research Lab participated in the FTP routing project.
+  - Using ROS for human robot collaboration with UR10 and Gazebo
   
 # Action Items
-- Create issue on industrial_training listing proposed advanced topics (Levi).
 - Ask Austin about GitLab and Industrial CI and provide feedback in next meeting (Levi). 
 - Ask Tobias about using Qt on embedded systems related to the LGPL (Levi).
