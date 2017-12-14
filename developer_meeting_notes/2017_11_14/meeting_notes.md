@@ -50,4 +50,4 @@
 # Action Items
 - Create issue on industrial_training listing proposed advanced topics (Levi).
 - Ask Austin about GitLab and Industrial CI and provide feedback in next meeting (Levi). 
-- Ask Tobias about using Qt on embeded systems related to the LGPL (Levi).
+- Ask Tobias about using Qt on embedded systems related to the LGPL (Levi).
