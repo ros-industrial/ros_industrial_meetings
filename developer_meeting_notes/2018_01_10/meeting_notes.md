@@ -29,14 +29,14 @@
   - Working with local university on a Kawasaki robot ROS driver
   - Working toward resolving the current universal robot issues
     - Need to find a maintainer
-  - Check out the new PR related to trajectory interpolation on the robot instead of PC on the UR Modern driver repository.
+  - Check out the new PR related to trajectory interpolation on the robot instead of PC on the UR Modern driver repository ([Zagitta/ur_modern_driver#9](https://github.com/Zagitta/ur_modern_driver/pull/9)).
   
 - Min Ling Chan
   - Restart discussion PackML Phase II.
   - Doing some work with ROS 2 on the UR to understand the implication
   
 # Open Discussion
-  - Highlighted an Issue related to moving all robot drivers to its own repository.
+  - Highlighted an Issue related to moving all robot drivers to its own repository ([ros-industrial/ros_industrial_issues#49](https://github.com/ros-industrial/ros_industrial_issues/issues/49)).
   
 # Action Items
 - Ask Austin about GitLab and Industrial CI and provide feedback in next meeting (Levi). 
